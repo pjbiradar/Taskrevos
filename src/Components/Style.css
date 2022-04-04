@@ -1,3 +1,7 @@
+body{
+    zoom:100%;
+    overflow-x: hidden;
+}
 .Heading {
     border: 2px solid whitesmoke;
     display: flex;
@@ -61,18 +65,24 @@
 }
 
 .mainsearch {
+    position: absolute;
     width: 300px;
     border: 2px solid whitesmoke;
     margin-left: 19px;
 }
-
+.btn1{
+    padding-bottom: 15px;
+}
 .submitstyle {
 
-    position: absolute;
-    bottom: 177px;
-    left: 260px;
+    /* position: absolute; */
+    /* bottom: 177px; */
+    /* left: 260px; */
     color: white;
     background-color: black;
+    margin-left: -63%;
+    top: -111px;
+    position: relative;
 }
 
 /* .datashow {

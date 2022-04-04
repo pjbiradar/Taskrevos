@@ -43,10 +43,9 @@ const List = () => {
 
       {show ?
         <AddData /> : null}
-      <div>
+      <div className="btn1">
         <button className="button1" onClick={handleClick}>
           <h2>Add Vehicle</h2>
-
         </button>
       </div>
 
