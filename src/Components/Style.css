@@ -1,0 +1,89 @@
+.Heading {
+    border: 2px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    text-decoration-line: none;
+}
+
+.button {
+
+    width: 200px;
+    height: 54px;
+    margin-right: 35%;
+    border-radius: 16px;
+    border: 2px solid whitesmoke;
+    position: relative;
+    bottom: 94px;
+
+}
+
+.datashow {
+    
+
+
+        /* margin-left: 31%; */
+        margin-top: -185px;
+        margin-left: 58%;
+        width: 300px;
+        /* border: 10px solid black; */
+        position: absolute;
+}
+
+/* .datashow2 {
+    width: 300px;
+} */
+
+.fa-circle-xmark {
+    font-size: 155%;
+    position: relative;
+    right: 233px;
+    bottom: 36px;
+}
+
+.deleteclick {
+
+    margin-right: 18%;
+    position: relative;
+    top: -127px;
+    background-color: seashell;
+    border: 2px solid seashell;
+    color: black;
+}
+
+.button1 {
+
+    background-color: black;
+    color: white;
+    position: relative;
+    border-radius: 13px;
+    /* bottom: 0px; */
+    right: 265px;
+}
+
+.mainsearch {
+    width: 300px;
+    border: 2px solid whitesmoke;
+    margin-left: 19px;
+}
+
+.submitstyle {
+
+    position: absolute;
+    bottom: 177px;
+    left: 260px;
+    color: white;
+    background-color: black;
+}
+
+/* .datashow {
+    margin-top: -234px;
+} */
+
+/* .buttonup{
+   
+
+    width: 600px;
+    height: 54px;
+    border: 2px solid palevioletred;
+    margin-left: 19%;
+} */
