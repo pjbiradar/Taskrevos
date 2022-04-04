@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import AddData from "./AddData";
 import { DataContext } from "./context/Data";
@@ -9,7 +9,7 @@ const List = () => {
   const navigate = useNavigate();
   const [show, setShow] = useState(false)
 
-  const[name,setName]=useState(0)
+  const[name,setName]=useState("data display")
   const [data, setData] = useContext(DataContext);
 
 
