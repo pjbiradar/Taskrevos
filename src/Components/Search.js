@@ -19,9 +19,7 @@ export default function Search() {
                 {
                 data.filter((val) =>
                  
-                    //  if (vehiclesearch === "") {return val}
                 (val.name.toLowerCase().includes(vehiclesearch.toLocaleLowerCase()))
-                //  { return val }
 
                 )
                     .map((val) => {
