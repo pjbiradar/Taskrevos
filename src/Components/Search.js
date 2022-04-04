@@ -18,7 +18,6 @@ export default function Search() {
             <div className='search'>
                 <input type="text" name="text" placeholder="search vehicles" onChange={searchvehicle} />
                 {data.filter((val) => {
-                    return 
                     if (vehiclesearch === "") {
                         return val
 

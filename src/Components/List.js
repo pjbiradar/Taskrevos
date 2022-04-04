@@ -1,13 +1,17 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import AddData from "./AddData";
 import { DataContext } from "./context/Data";
 
 
+
 const List = () => {
   const navigate = useNavigate();
-  // const [show, setShow] = useState(false)
+  const [show, setShow] = useState(false)
+
+  const[name,setName]=useState(0)
   const [data, setData] = useContext(DataContext);
+
 
   const handleDelete = (e) => {
     const id = +e.target.value;
@@ -16,48 +20,44 @@ const List = () => {
   };
   const handleClick = () => {
     navigate("/");
+    setShow(true)
 
 
 
   };
-  // const display = (e) => {
-  //   const id = +e.target.value;
-  //   const newData = data.filter((item) => item.id === id).map((val) => {
-  //     return <p>{val.id}</p>
+  const handleClk = (id) => {
+    // console.log("hello");
 
-  //   })
+    const fill = data.filter((val) => val.id === id).map((x) => {
+      return setName(x.name)
+    })
+    return fill
 
 
-  // }
+
+  }
 
   return (
     <div>
 
 
-
+      {show ?
+        <AddData /> : null}
       <div>
         <button className="button1" onClick={handleClick}>
           <h2>Add Vehicle</h2>
 
         </button>
       </div>
-      <span>
-        <AddData />
-
-      </span>
-
-
-
-
-
 
       {data.map((value) => {
         return (
           <>
 
             <div className="container">
+
               <div>
-                <button onClick={display} className="button" value={value.id}>
+                <button  className="button" value={value.id} onClick={()=>handleClk(value.id)} >
                   <h2>Vehicle {value.id}</h2>
 
                 </button>
@@ -67,11 +67,13 @@ const List = () => {
                   Delete
                 </button>
               </div>
-             
+
             </div>
             <div className="datashow">
-                <h3>{value.name}</h3>
-              </div>
+              {/* <h3>{value.name}</h3> */}
+              {/* <p>{vehicle}</p> */}
+              {name}
+            </div>
 
 
 

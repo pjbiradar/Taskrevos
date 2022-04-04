@@ -8,12 +8,12 @@
 .button {
 
     width: 200px;
-    height: 54px;
+    height: 70px;
     margin-right: 35%;
     border-radius: 16px;
     border: 2px solid whitesmoke;
     position: relative;
-    bottom: 94px;
+    bottom: 0px;
 
 }
 
@@ -22,7 +22,7 @@
 
 
         /* margin-left: 31%; */
-        margin-top: -185px;
+        margin-top: -83px;
         margin-left: 58%;
         width: 300px;
         /* border: 10px solid black; */
@@ -44,7 +44,7 @@
 
     margin-right: 18%;
     position: relative;
-    top: -127px;
+    top: -36px;
     background-color: seashell;
     border: 2px solid seashell;
     color: black;
