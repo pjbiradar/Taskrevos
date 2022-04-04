@@ -4,7 +4,7 @@ import { DataContext } from './context/Data';
 
 export default function Search() {
     const [vehiclesearch, setVehiclesearch] = useState("")
-    const [data, setData] = useContext(DataContext);
+    const [data] = useContext(DataContext);
     //   const [dd, setDd] = useState({ id: "", name: "" });
 
 
@@ -18,7 +18,8 @@ export default function Search() {
             <div className='search'>
                 <input type="text" name="text" placeholder="search vehicles" onChange={searchvehicle} />
                 {data.filter((val) => {
-                    if (vehiclesearch == "") {
+                    return 
+                    if (vehiclesearch === "") {
                         return val
 
                     } 

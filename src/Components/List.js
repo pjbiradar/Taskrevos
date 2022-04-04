@@ -2,12 +2,11 @@ import React, { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import AddData from "./AddData";
 import { DataContext } from "./context/Data";
-import Search from "./Search";
 
 
 const List = () => {
   const navigate = useNavigate();
-  const [show, setShow] = useState(false)
+  // const [show, setShow] = useState(false)
   const [data, setData] = useContext(DataContext);
 
   const handleDelete = (e) => {
@@ -21,15 +20,15 @@ const List = () => {
 
 
   };
-  const display = (e) => {
-    const id = +e.target.value;
-    const newData = data.filter((item) => item.id === id).map((val) => {
-      return <p>{val.id}</p>
+  // const display = (e) => {
+  //   const id = +e.target.value;
+  //   const newData = data.filter((item) => item.id === id).map((val) => {
+  //     return <p>{val.id}</p>
 
-    })
+  //   })
 
 
-  }
+  // }
 
   return (
     <div>

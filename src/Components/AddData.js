@@ -6,7 +6,7 @@ import Search from "./Search";
 const AddData = () => {
   const navigate = useNavigate();
   const [data, setData] = useContext(DataContext);
-  const [dd, setDd] = useState({ id: "", name: "" });
+  const [dd] = useState({ id: "", name: "" });
   // const handleChange = (e) => {
   //   setDd({ [e.target.name]: e.target.value });
   // };
