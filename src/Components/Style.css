@@ -1,6 +1,7 @@
 body{
-    zoom:100%;
-    overflow-x: hidden;
+    /* zoom:100%; */
+    /* overflow-x: hidden; */
+    font-size: medium;
 }
 .Heading {
     border: 2px solid whitesmoke;
@@ -11,14 +12,20 @@ body{
 
 .button {
 
-    width: 200px;
-    height: 70px;
-    margin-right: 35%;
+    width: 141px;
+    height: 43px;
+    right: 300px;
     border-radius: 16px;
     border: 2px solid whitesmoke;
     position: relative;
-    bottom: 0px;
+    bottom: 582px;
+}
+.wrong{
 
+    position: relative;
+    left: 796px;
+    bottom: 597px;
+    width: 30px;
 }
 
 .datashow {
@@ -46,54 +53,151 @@ body{
 
 .deleteclick {
 
-    margin-right: 18%;
     position: relative;
-    top: -36px;
-    background-color: seashell;
+    top: -22px;
+    right: 263px;
+    padding-bottom: 26px;
+    width: 29px;
+    padding-left: 6px;
+    height: 11px;
+    background-color: gray;
     border: 2px solid seashell;
-    color: black;
+    color: white;
+    border-radius: 15px;
+}
+.x{
+    font-size: larger;
+    font-weight: 900;
 }
 
 .button1 {
 
+
     background-color: black;
     color: white;
     position: relative;
-    border-radius: 13px;
+    border-radius: 5px;
     /* bottom: 0px; */
-    right: 265px;
+    width: 138px;
+    right: 298px;
+    top: 8px;
+    
+}
+.container{
+    margin-left: 256px;
+    width: 30%;
+    position: relative;
+    bottom: 603px;
 }
 
 .mainsearch {
     position: absolute;
     width: 300px;
     border: 2px solid whitesmoke;
-    margin-left: 19px;
+    left: 13px;
+    bottom: 430px;
 }
 .btn1{
     padding-bottom: 15px;
+    position: relative;
+    top: 43px;
 }
 .submitstyle {
 
-    /* position: absolute; */
-    /* bottom: 177px; */
-    /* left: 260px; */
-    color: white;
-    background-color: black;
-    margin-left: -63%;
-    top: 76px;
-    position: relative;
-}
-
-/* .datashow {
-    margin-top: -234px;
-} */
-
-/* .buttonup{
    
 
-    width: 600px;
-    height: 54px;
-    border: 2px solid palevioletred;
-    margin-left: 19%;
-} */
+    color: white;
+    background-color: black;
+    /* top: 99px; */
+    margin-left: 300px;
+    
+    /* left: 253px; */
+}
+.search{
+    width: 180px;
+}
+.searchtext{
+    width: 130px;
+}
+
+
+.maintable{
+    width: 300px;
+    position: relative;
+    float: left;
+    bottom: 24px;
+}
+.leftside{
+
+    border: 3px solid darkgray;
+    width: 709px;
+    height: 643px;
+    position: relative;
+    left: 706px;
+
+
+    
+}
+
+.mixed-chart{
+    width: 300px;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 217px;
+    height: 204px;
+    top: 3px;
+    left: 466px;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 20px 20px 20px 30px;
+}
+.vehiclestatus{
+
+
+    margin-top: 3px;
+    font-size: larger;
+    font-family: cursive;
+    position: relative;
+    right: 204px;
+}
+thead{
+    color: black;
+    font-weight: 200;
+    border: 2px solid gray;
+}
+.rowis{
+
+    border: 0px solid white;
+    height: 258px;
+}
+.mycard{
+
+    float: left;
+    border: 3px solid whitesmoke;
+    width: 297px;
+    height: 230px;
+    background-color: lightgray;
+
+}
+.cardbody{
+    margin-top: 28px;
+    text-align: center;
+    padding: 3px 3px 3px 3px;
+}
+.posting{
+    border: 2px soild blue;
+}
+.headingvehicle{
+
+    margin-right: 79%;
+    font-size: larger;
+}
